@@ -19,7 +19,7 @@
 (let ((el-get-root
        (file-name-as-directory
 	(or (bound-and-true-p el-get-dir)
-	    (concat (file-name-as-directory el-root) "el-get")))))
+	    (concat (file-name-as-directory user-emacs-directory) "el-get")))))
 
   (when (file-directory-p (concat el-get-root "el-get"))
     (add-to-list 'load-path (concat el-get-root "el-get")))

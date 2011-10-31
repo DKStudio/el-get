@@ -19,10 +19,11 @@
 
 (let ((el-get-root
        (file-name-as-directory
-	(concat (file-name-as-directory user-emacs-directory) "el-get"))))
+	(or (bound-and-true-p el-get-dir)
+	    (concat (file-name-as-directory user-emacs-directory) "el-get")))))
 
-  (when (file-directory-p el-get-root)
-    (add-to-list 'load-path el-get-root))
+  (when (file-directory-p (concat el-get-root "el-get"))
+    (add-to-list 'load-path (concat el-get-root "el-get")))
 
   ;; try to require el-get, failure means we have to install it
   (unless (require 'el-get nil t)

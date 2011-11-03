@@ -1,0 +1,3 @@
+(:name linum+
+       :description "Is linum plus version"
+       :type emacswiki :features linum+)

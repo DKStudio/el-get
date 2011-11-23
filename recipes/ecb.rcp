@@ -3,5 +3,4 @@
        :type http-tar
        :options ("xzf")
        :url "http://ecb.cvs.sourceforge.net/viewvc/ecb/ecb/?view=tar"
-       :load "color-theme.el"
        :build `(,(concat  "make CEDET=" " EMACS=" el-get-emacs)))

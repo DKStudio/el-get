@@ -1,6 +1,6 @@
 (:name ecb
        :description "Emacs Code Browser"
-       :type cvs
+       :type http-tar
        :module "ecb"
-       :url ":pserver:anonymous@ecb.cvs.sourceforge.net:/cvsroot/ecb"
+       :url "http://ecb.cvs.sourceforge.net/viewvc/ecb/ecb/?view=tar"
        :build `(,(concat  "make CEDET=" " EMACS=" el-get-emacs)))

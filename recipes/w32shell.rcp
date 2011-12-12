@@ -3,4 +3,4 @@
        :type http
        :url "http://lists.gnu.org/archive/html/help-gnu-emacs/2009-06/txtlfQeWoeR65.txt"
        :localname "w32shell.el"
-       :features w32shell)
+       )

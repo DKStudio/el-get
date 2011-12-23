@@ -1,6 +1,5 @@
 (:name w32shell
        :description "windows msys-shell or cygenwin shell"
        :type http
-       :url "http://www.google.com.tw/url?sa=t&rct=j&q=w32shell&source=web&cd=1&ved=0CCQQFjAA&url=http%3A%2F%2Fourcomments.org%2FEmacs%2FDL%2FEmacsW32-only%2Fsrc%2FEmacsW32%2Flisp%2Fw32shell.el&ei=gpT0TtWBF4TqmAW8tcCMAg&usg=AFQjCNHnpN3U3tEvZ-ajz-3sMdha_aV3vg&sig2=K7f-JZVmk423kGeLGxyDNwt"
-       :localname "w32shell.el"
+       :url "http://ourcomments.org/Emacs/DL/EmacsW32-only/src/EmacsW32/lisp/w32shell.el"
        )

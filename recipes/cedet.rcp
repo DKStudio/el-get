@@ -7,5 +7,5 @@
   :features "cedet"
   :build ("touch `find . -name Makefile`" "make")
   ;:build/windows-nt (emacs -Q -l cedet-build.el -f cedet-build)
-  :load "cedet-build.el"
+  :load "cedet-build.el -f cedet-build"
   :load-path ("./common" "speedbar"))

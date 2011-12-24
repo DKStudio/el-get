@@ -5,8 +5,5 @@
   :url "http://dl.dropbox.com/u/34937414/cedet-1.0.tar.gz"
   :options ("xzf")
   :features "cedet"
-  :build ("touch `find . -name Makefile`" "make")
-  :build/windows-nt ("echo #!/bin/sh > tmp.sh & echo touch `/usr/bin/find . -name Makefile` >> tmp.sh & echo make FIND=/usr/bin/find >> tmp.sh" 
-		     "sed 's/^M$//' tmp.sh  > tmp2.sh"
-		     "sh ./tmp2.sh" "rm ./tmp.sh ./tmp2.sh")
-  :load-path ("./common" "speedbar"))
+  
+)

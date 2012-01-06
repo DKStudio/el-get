@@ -4,7 +4,6 @@
   :type http-tar
   :url "http://dl.dropbox.com/u/34937414/cedet20120105.tar.gz"
   :options ("xzf")
-  :features "cedet"
   :build ("touch `find . -name Makefile`" "make")
   :build/windows-nt ("emacs -Q -l cedet-build.el -f cedet-build")
   :load-path ("./common" "speedbar"))

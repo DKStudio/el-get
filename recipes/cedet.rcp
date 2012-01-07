@@ -6,4 +6,4 @@
   :options ("xzf")
   :build ("touch `find . -name Makefile`" "make")
   :build/windows-nt ("emacs -q --no-site-file --no-splash -l cedet-build.el -f cedet-build")
-  :load-path ("./common" "speedbar"))
+  :load-path ("./common" "./speedbar"))

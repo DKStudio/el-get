@@ -1,4 +1,4 @@
 (:name lorem-ipsum
        :description "Lorem Ipsum Generator"
-       :type emacswiki
-       :features lorem-ipsum)
+       :type github
+       :pkgname "jschaf/emacs-lorem-ipsum")

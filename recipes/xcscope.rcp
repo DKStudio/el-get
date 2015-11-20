@@ -1,5 +1,10 @@
 (:name xcscope
        :description "Cscope interface for (X)Emacs"
-       :type git
-       :url "git://github.com/To1ne/xcscope.git"
-       :features xcscope)
+       :type github
+       :pkgname "dkogan/xcscope.el"
+       :prepare
+       (progn
+         ;; `cscope-setup' without having to (require 'xcscope)
+         (add-hook 'c-mode-hook (function cscope-minor-mode))
+         (add-hook 'c++-mode-hook (function cscope-minor-mode))
+         (add-hook 'dired-mode-hook (function cscope-minor-mode))))

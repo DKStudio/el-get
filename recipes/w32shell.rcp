@@ -1,5 +1,4 @@
 (:name w32shell
        :description "windows msys-shell or cygenwin shell"
        :type http
-       :url "http://lists.gnu.org/archive/html/help-gnu-emacs/2009-06/txtlfQeWoeR65.txt"
-       :build ("ren txtlfQeWoeR65.txt w32shell.el"))
+       :url "https://gist.githubusercontent.com/johnfredcee/1097145/raw/0b9995e00f7d239dd27bfd60b841760389ffd1b9/w32shell.el")

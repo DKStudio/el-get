@@ -15,7 +15,7 @@
          ("gmake" ,(format "EMACS=%s" (shell-quote-argument el-get-emacs)))
          ("gmake" ,(format "EMACS=%s" (shell-quote-argument el-get-emacs)) "-C" "contrib"))
        :build/windows-nt
-       `(("sh" "-c" "touch `/usr/bin/find . -name Makefile` && make FIND=/usr/bin/find"))
+       `(("sh" "-c" "touch `/usr/bin/find . -name Makefile` && mingw32-make FIND=/usr/bin/find"))
        :features nil
        ;; This package isn't really non-lazy, but we want to call the
        ;; post-init immediately, because it handles the lazy autoload
